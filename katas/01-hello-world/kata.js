@@ -1,3 +1,9 @@
 export function kata() {
-  // TODO!
+  const div = document.createElement("div");
+  const p = document.createElement("p");
+  div.id = "square";
+  p.id = "text";
+  p.textContent = "Hello World";
+  div.appendChild(p);
+  document.body.appendChild(div);
 }
